@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Fira+Code:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Navigasi */
+
+
+.bg-gradient-custom {
+  background: linear-gradient(90deg, #fceabb, #f8b6e0); 
+}
+
+.navbar-brand {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #a145df !important;
+}
+
+.text-purple {
+  color: #a145df;
+}
+
+.btn-purple {
+  background-color: #d58cf7;
+  border: none;
+  border-radius: 12px;
+  transition: all 0.5s ease;
+}
+
+.btn-purple:hover {
+  background-color: transparent;
+  box-shadow: 5px 5px 10px #d58cf7;
+}
+
+/* home */
+
+.home {
+  background: linear-gradient(to bottom right, #f6f6f6, #fceabb);
+   min-height: 100vh;
+}
+
+.welcome-text {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 4px;
+  color: #a145df;
+}
+
+.subtext {
+  font-size: 20px;
+  color: #a145df;
+  letter-spacing: 4px;
+  margin-top: -10px;
+}
+
+.monitor {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+
+.monitor-img {
+  max-width: 100%;
+  height: auto;
+  width: 545px; 
+}
+
+/* about */
+
+.about {
+   background: linear-gradient(to bottom right, #fceabb, #f6f6f6);
+   min-height: 100vh;
+}
+
+.judul-about {
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  color: #a145df;
+}.subjudul-about {
+  font-size: 20px;
+  color: #a145df;
+  letter-spacing: 4px;
+  margin-top: -10px;
+}
+.about-content {
+  min-height: calc(100vh - 120px);
+}
+
+.about-text {
+  font-size: 1.2rem;
+  font-style: bold;
+  line-height: 1.8;
+  text-align: justify;
+  color: #555;
+}
+
+.about-image {
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 36px;
+  border: 5px double #a145df;
+}
+
+.job-search-form .form-group {
+  background-color: #f1f5f9;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+}
+
+.job-search-form input::placeholder {
+  color: #6b7280;
+}
+
+.job-search-form input {
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+}
