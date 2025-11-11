@@ -3,7 +3,7 @@
 $host = "localhost";
 $user = "root"; 
 $pass = ""; // Kosongkan jika tidak ada password
-$db   = "simaa"; // Sesuaikan dengan nama database yang benar
+$db   = "simaaa"; // Sesuaikan dengan nama database yang benar
 
 // Membuat koneksi (gunakan nama variabel $conn untuk konsistensi)
 $koneksi = mysqli_connect($host, $user, $pass, $db);
